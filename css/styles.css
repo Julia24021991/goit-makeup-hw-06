@@ -1031,6 +1031,8 @@ screen and (min-resolution: 2dppx) {
     .footer-list-icons {
         display: flex;
         gap: 16px;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1050,7 +1052,6 @@ screen and (min-resolution: 2dppx) {
         background-color: var(--footer-list-icons-background);
         border-radius: 50%;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        width: calc(100% - 3*16px) / 4;
     }
 }
 
