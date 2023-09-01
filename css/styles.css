@@ -110,13 +110,14 @@ address {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-        padding: 0 16px;
+        padding: 0 15px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
+        max-width: 1158px;
+        padding: 0 16px;
     }
 }
 
@@ -150,7 +151,9 @@ address {
 
 @media screen and (min-width: 1158px) {
     .header-container {
-        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 16px;
     }
 }
 
@@ -176,8 +179,8 @@ address {
 
 @media screen and (min-width: 1158px) {
     nav .link-logo {
-        margin-right: 120px;
-        margin-left: 140px;
+        margin-right: 76px;
+        padding: 24px 0;
     }
 }
 
@@ -230,7 +233,7 @@ address {
 
 @media screen and (min-width: 1158px) {
     .nav-list .current {
-        padding: 20px 0;
+        padding: 24px 0;
     }
 }
 
@@ -268,7 +271,6 @@ address {
 @media screen and (min-width: 1158px) {
     .address-list {
         gap: 40px;
-        margin-right: 140px;
     }
 }
 
@@ -442,8 +444,9 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 1158px) {
     .list-feature {
+        display: flex;
         gap: 24px;
-        margin: 0 140px;
+        flex-wrap: wrap;
     }
 }
 
@@ -554,7 +557,6 @@ screen and (min-resolution: 2dppx) {
     .projects .list {
         display: flex;
         gap: 24px;
-        margin: 0 140px;
     }
 
     .project-list-item {
@@ -614,7 +616,7 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 1158px) {
     .ul-team-list {
         gap: 24px;
-        margin: 0 140px;
+        margin: 0;
     }
 }
 
@@ -773,8 +775,7 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 1158px) {
     .custumers-list {
         gap: 24px;
-        margin: 0 140px;
-
+        margin: 0;
     }
 }
 
@@ -894,7 +895,6 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 1158px) {
     .footer-logo {
         margin: 0;
-        margin-left: 140px;
         margin-right: auto;
     }
 }
@@ -932,8 +932,10 @@ screen and (min-resolution: 2dppx) {
         text-transform: none;
         width: 268px;
         text-align: start;
+        margin: 0 auto;
     }
 }
+
 
 
 @media screen and (min-width: 768px) {
@@ -1026,7 +1028,6 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 1158px) {
     .footer-subscribe {
-        margin-right: 143px;
         margin-left: 80px;
     }
 }
